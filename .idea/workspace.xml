@@ -7,49 +7,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8b2212f-a3cc-4223-9a80-3db89eee8422" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/delete_matiere.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/User/create.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/User/create_user.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/User/delete.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/User/edit_user.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/User/index.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/User/list.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/User/update.html.twig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Entity/etudiant.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Entity/etudiant.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Entity/note.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Entity/note.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/BaseController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/CommentController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/CommentController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EtudiantController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EtudiantController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/MatiereController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/MatiereController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/NoteController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/NoteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/PublicationController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/PublicationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/UserController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Repository/noteRepository.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Repository/noteRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Bulletin/createNote.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Bulletin/createNote.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Comment/create_comment.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Comment/create_comment.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/create.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/create.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/details.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/details.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/list.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/update.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/update.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/create_matiere.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/create_matiere.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/list_matiere.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/list_matiere.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/update_matiere.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/update_matiere.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Publication/index_publication.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Publication/index_publication.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Service/crudService.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Service/crudService.php" />
-    </list>
+    <list default="true" id="b8b2212f-a3cc-4223-9a80-3db89eee8422" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +21,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/ArticleController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -324,7 +293,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TutoBundle" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,33 +311,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="TutoBundle" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="Infrastructure" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,12 +468,12 @@
       <workItem from="1519971984528" duration="15358000" />
       <workItem from="1520230653793" duration="23078000" />
       <workItem from="1520318599781" duration="16928000" />
-      <workItem from="1520404103405" duration="11331000" />
+      <workItem from="1520404103405" duration="12544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324104000" />
+    <option name="totallyTimeSpent" value="325317000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -530,7 +485,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -576,13 +532,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="791">
@@ -981,6 +930,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
