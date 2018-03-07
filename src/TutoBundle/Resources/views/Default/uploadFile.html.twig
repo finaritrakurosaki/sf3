@@ -1,0 +1,20 @@
+{% extends "TutoBundle::Layout.html.twig" %}
+{% block body %}
+    <div class="container">
+        <h3>Upload File</h3><br>
+        {% if  app.request.hasPreviousSession %}
+            {% for message in app.flashes('notice') %}
+                <div class="alert alert-success">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+        {{ form_start(form)}}
+        <div class="custom-file">
+          {{ form_label(form.file) }}
+        </div>
+         {{ form_widget(form.file) }}
+        {{ form_row(form.upload, {'attr': {'class': 'btn btn-info'}}) }}
+        {{ form_end(form) }}
+    </div>
+{% endblock %}

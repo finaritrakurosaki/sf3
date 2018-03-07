@@ -1,0 +1,18 @@
+{% extends "TutoBundle::Layout.html.twig" %}
+{% block body %}
+    <h1>Create Note:</h1> <br>
+    {% if  app.request.hasPreviousSession %}
+        {% for message in app.flashes('notice') %}
+            <div class="alert alert-success">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+    {{ form_start(form) }}
+<div class="form-group">
+{{ form_widget(form) }}
+</div>
+    <input class="btn btn-info" type="submit" value="Create" />
+    {{ form_end(form) }}
+{% endblock %}
+
