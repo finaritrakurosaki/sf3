@@ -1,0 +1,14 @@
+{% extends "TutoBundle::Layout.html.twig" %}
+
+{% block title %}TutoBundle:Etudiant:show{% endblock %}
+
+{% block body %}
+    <h3>{{ titre }}</h3>
+    {% block content %}
+        {% for contenu in contenus %}
+            {{ contenu }}<br>
+        {% endfor %}
+
+    {% endblock %}
+{% endblock %}
+

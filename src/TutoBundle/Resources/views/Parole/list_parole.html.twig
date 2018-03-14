@@ -1,0 +1,22 @@
+{% extends "TutoBundle::Layout.html.twig" %}
+
+{% block title %}TutoBundle:Parole:listParole{% endblock %}
+
+{% block body %}
+<h1>Parole page</h1>
+ {% block content %}
+     <a href="{{ path('addParole') }}">add new parole</a><br>
+    <div href="form-group">
+        <legend>English</legend>
+        {% for id,paroleE in paroleENG %}
+            titre: {{ paroleE }} |<a href="{{ path('showParole',{'id':id}) }}">show</a> <br>
+        {% endfor %}
+    </div>
+    <div class="form-group">
+        <legend>French</legend>
+        {% for id,paroleF in paroleFR %}
+            titre: {{ paroleF }} |<a href="{{ path('showParole',{'id':id}) }}">show</a> <br>
+        {% endfor %}
+    </div>
+{% endblock %}
+{% endblock %}
