@@ -25,6 +25,7 @@ class ViewConfigPass implements ConfigPassInterface
         $backendConfig = $this->processDefaultFieldsConfig($backendConfig);
         $backendConfig = $this->processFieldConfig($backendConfig);
         $backendConfig = $this->processPageTitleConfig($backendConfig);
+        $backendConfig = $this->processMaxResultsConfig($backendConfig);
         $backendConfig = $this->processSortingConfig($backendConfig);
 
         return $backendConfig;
@@ -133,6 +134,28 @@ class ViewConfigPass implements ConfigPassInterface
     }
 
     /**
+     * This method resolves the 'max_results' inheritance when some global view
+     * (list, show, etc.) defines a global value for all entities that can be
+     * overridden individually by each entity.
+     *
+     * @param array $backendConfig
+     *
+     * @return array
+     */
+    private function processMaxResultsConfig(array $backendConfig)
+    {
+        foreach ($backendConfig['entities'] as $entityName => $entityConfig) {
+            foreach (array('list', 'search', 'show') as $view) {
+                if (!isset($entityConfig[$view]['max_results']) && isset($backendConfig[$view]['max_results'])) {
+                    $backendConfig['entities'][$entityName][$view]['max_results'] = $backendConfig[$view]['max_results'];
+                }
+            }
+        }
+
+        return $backendConfig;
+    }
+
+    /**
      * This method processes the optional 'sort' config that the 'list' and
      * 'search' views can define to override the default (id, DESC) sorting
      * applied to their contents.
@@ -200,9 +223,10 @@ class ViewConfigPass implements ConfigPassInterface
      */
     private function getFieldFormat($fieldType, array $backendConfig)
     {
-        if (in_array($fieldType, array('date', 'time', 'datetime', 'datetimetz'))) {
+        if (in_array($fieldType, array('date', 'date_immutable', 'time', 'time_immutable', 'datetime', 'datetime_immutable', 'datetimetz'))) {
             // make 'datetimetz' use the same format as 'datetime'
             $fieldType = ('datetimetz' === $fieldType) ? 'datetime' : $fieldType;
+            $fieldType = ('_immutable' === substr($fieldType, -10)) ? substr($fieldType, 0, -10) : $fieldType;
 
             return $backendConfig['formats'][$fieldType];
         }
@@ -246,7 +270,7 @@ class ViewConfigPass implements ConfigPassInterface
             'edit' => array('binary', 'blob', 'json_array', 'json', 'object'),
             'list' => array('array', 'binary', 'blob', 'guid', 'json_array', 'json', 'object', 'simple_array', 'text'),
             'new' => array('binary', 'blob', 'json_array', 'json', 'object'),
-            'search' => array('association', 'binary', 'boolean', 'blob', 'date', 'datetime', 'datetimetz', 'time', 'object'),
+            'search' => array('association', 'binary', 'boolean', 'blob', 'date', 'date_immutable', 'datetime', 'datetime_immutable', 'datetimetz', 'time', 'time_immutable', 'object'),
             'show' => array(),
         );
 

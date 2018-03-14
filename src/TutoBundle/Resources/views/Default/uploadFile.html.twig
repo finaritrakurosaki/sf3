@@ -16,5 +16,8 @@
          {{ form_widget(form.file) }}
         {{ form_row(form.upload, {'attr': {'class': 'btn btn-info'}}) }}
         {{ form_end(form) }}
+        {% for image in imageUploaded %}
+            <img src="{{ asset('uploads/Images/'~image.image)}}" class="img-thumbnail img-fluid " width="15%" height="15%"/>
+        {% endfor %}
     </div>
 {% endblock %}

@@ -15,7 +15,7 @@
  * This strategy sets the HTML as the default autoescaping strategy,
  * but changes it based on the template name.
  *
- * default that there is no runtime performance impact as the
+ * Note that there is no runtime performance impact as the
  * default autoescaping strategy is set at compilation time.
  *
  * @author Fabien Potencier <fabien@symfony.com>

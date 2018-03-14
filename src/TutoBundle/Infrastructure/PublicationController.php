@@ -8,9 +8,14 @@ use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\HttpFoundation\Request;
 use TutoBundle\Entity\publication;
+use JMS\DiExtraBundle\Annotation\Inject;
 
 class PublicationController extends BaseController
 {
+    /**
+     * @Inject("tuto.crud", required = true)
+     */
+    private $crud;
     /**
      * @Route("/user/forum", name="forum")
      */
@@ -25,7 +30,7 @@ class PublicationController extends BaseController
             $publication = new publication();
             $publication->setContents($form->get('contenu')->getData())
                         ->setUser($this->getUser());
-            $this->loadService()->add($publication);
+            $this->crud->add($publication);
             return $this->redirectToRoute('forum');
          }
         $publications = $this->getDoctrine()->getRepository(publication::class)->findBy(array(),array('date'=>'desc') );

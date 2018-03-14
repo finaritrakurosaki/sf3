@@ -150,6 +150,8 @@ methods are complex because they need to perform lots of checks:
         protected function deleteAction();
         // special Ajax-based action used to get the results for the autocomplete form field
         protected function autocompleteAction();
+        // useful to add/modify/remove the parameters passed to the Twig template
+        protected function renderTemplate();
     }
 
 The rest of the available methods are specific for each action:
@@ -348,6 +350,8 @@ methods, but they include the entity name as part of their names:
     protected function search<EntityName>Action();
     protected function show<EntityName>Action();
     // ...
+    protected function render<EntityName>Template();
+    // ...
     protected function createNew<EntityName>Entity();
     // ...
     protected function persist<EntityName>Entity();
@@ -396,8 +400,8 @@ anywhere in your Symfony application and make it extend from the default
 
 .. code-block:: php
 
-    // src/AppBundle/Controller/AdminController.php
-    namespace AppBundle\Admin;
+    // src/AppBundle/Controller/ProductController.php
+    namespace AppBundle\Controller;
 
     use EasyCorp\Bundle\EasyAdminBundle\Controller\AdminController as BaseAdminController;
 
@@ -415,7 +419,7 @@ will use that controller and set the fully qualified class name as its value:
         entities:
             # ...
             Product:
-                controller: AppBundle\Admin\ProductController
+                controller: AppBundle\Controller\ProductController
                 # ...
 
 **Step 3.** You can now override any of the default ``AdminController`` methods

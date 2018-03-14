@@ -7,7 +7,240 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8b2212f-a3cc-4223-9a80-3db89eee8422" name="Default" comment="" />
+    <list default="true" id="b8b2212f-a3cc-4223-9a80-3db89eee8422" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/overriding_controllers.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Util/LegacyFormHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CoverageListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/SymfonyTestsListener.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sf3.iml" afterPath="$PROJECT_DIR$/.idea/sf3.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/EtudiantRestController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/EtudiantRestController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/NoteRestController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/NoteRestController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/ArticleController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/ArticleController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/BaseController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/BaseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/CommentController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/CommentController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EtudiantController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EtudiantController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/FileController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/FileController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/MatiereController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/MatiereController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/NoteController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/NoteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/PublicationController.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Infrastructure/PublicationController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Repository/etudiantRepository.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Repository/etudiantRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Repository/noteRepository.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Repository/noteRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/uploadFile.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/uploadFile.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/list.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Layout.html.twig" afterPath="$PROJECT_DIR$/src/TutoBundle/Resources/views/Layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Service/crudService.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Service/crudService.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TutoBundle/Service/uploadFile.php" afterPath="$PROJECT_DIR$/src/TutoBundle/Service/uploadFile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/.styleci.yml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/.styleci.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/.travis.yml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Context/Context.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Context/Context.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/Annotations/AbstractParam.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/Annotations/AbstractParam.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/Annotations/AbstractScalarParam.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/Annotations/AbstractScalarParam.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/Annotations/FileParam.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/Annotations/FileParam.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/Annotations/RouteResource.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/Annotations/RouteResource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/ConfigurationCheckPass.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/ConfigurationCheckPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/JMSHandlersPass.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/JMSHandlersPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/DependencyInjection/FOSRestExtension.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/DependencyInjection/FOSRestExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOSRestBundle.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOSRestBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Routing/Loader/RestRouteLoader.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Routing/Loader/RestRouteLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Routing/Loader/RestYamlCollectionLoader.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Routing/Loader/RestYamlCollectionLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Serializer/JMSSerializerAdapter.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Serializer/JMSSerializerAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Context/ContextTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Context/ContextTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Controller/Annotations/AbstractParamTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Controller/Annotations/AbstractParamTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Controller/Annotations/AbstractScalarParamTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Controller/Annotations/AbstractScalarParamTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Decoder/JsonToFormDecoderTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Decoder/JsonToFormDecoderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/DependencyInjection/ConfigurationTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/DependencyInjection/ConfigurationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/DependencyInjection/FOSRestExtensionTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/DependencyInjection/FOSRestExtensionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/EventListener/AccessDeniedListenerTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/EventListener/AccessDeniedListenerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/EventListener/VersionListenerTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/EventListener/VersionListenerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/EventListener/ViewResponseListenerTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/EventListener/ViewResponseListenerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Functional/app/AppKernel.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Functional/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Configuration/config.yml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Configuration/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Functional/app/ViewResponseListener/bundles.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Functional/app/ViewResponseListener/bundles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Request/RequestBodyParamConverterTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Request/RequestBodyParamConverterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Routing/Loader/RestRouteLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Routing/Loader/RestRouteLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Routing/Loader/RestXmlCollectionLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Routing/Loader/RestXmlCollectionLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Routing/Loader/RestYamlCollectionLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Routing/Loader/RestYamlCollectionLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/ActivateUserCommand.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/ActivateUserCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/ChangePasswordCommand.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/ChangePasswordCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/CreateUserCommand.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/CreateUserCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/DeactivateUserCommand.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/DeactivateUserCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/DemoteUserCommand.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/DemoteUserCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/PromoteUserCommand.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/PromoteUserCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/RoleCommand.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Command/RoleCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ChangePasswordController.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ChangePasswordController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/GroupController.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/GroupController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ProfileController.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ProfileController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/RegistrationController.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/RegistrationController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ResettingController.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ResettingController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/DependencyInjection/Compiler/ValidationPass.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/DependencyInjection/Compiler/ValidationPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/DependencyInjection/FOSUserExtension.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/DependencyInjection/FOSUserExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOSUserBundle.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOSUserBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/DataTransformer/UserToUsernameTransformer.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/DataTransformer/UserToUsernameTransformer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ChangePasswordFormType.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ChangePasswordFormType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/GroupFormType.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/GroupFormType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ProfileFormType.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ProfileFormType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ResettingFormType.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ResettingFormType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/UsernameFormType.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/UsernameFormType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/GroupInterface.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/GroupInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/GroupManager.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/GroupManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/GroupableInterface.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/GroupableInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserInterface.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserManager.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserManagerInterface.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserManagerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/change_password.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/change_password.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/doctrine-mapping/User.couchdb.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/doctrine-mapping/User.couchdb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/group.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/group.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/mailer.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/mailer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/profile.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/profile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/registration.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/registration.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/resetting.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/resetting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/change_password.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/change_password.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/group.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/group.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/profile.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/profile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/registration.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/registration.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/resetting.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/resetting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/security.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/security.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/util.xml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/util.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/adding_invitation_registration.rst" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/adding_invitation_registration.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/command_line_tools.rst" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/command_line_tools.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/configuration_reference.rst" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/configuration_reference.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/form_type.rst" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/form_type.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/index.rst" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/index.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/overriding_forms.rst" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/doc/overriding_forms.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.es.yml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.es.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.eu.yml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.eu.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.fr.yml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.fr.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ru.yml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ru.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.tr.yml" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.tr.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login_content.html.twig" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login_content.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Util/Canonicalizer.php" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Util/Canonicalizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/book/complex-dynamic-backends.rst" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/book/complex-dynamic-backends.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/book/edit-new-configuration.rst" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/book/edit-new-configuration.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/book/list-search-show-configuration.rst" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/book/list-search-show-configuration.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Configuration/NormalizerConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Configuration/NormalizerConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Configuration/PropertyConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Configuration/PropertyConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Configuration/TemplateConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Configuration/TemplateConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Configuration/ViewConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Configuration/ViewConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Controller/AdminController.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Controller/AdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/EasyAdminBundle.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/EasyAdminBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Form/Extension/EasyAdminExtension.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Form/Extension/EasyAdminExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Form/Guesser/MissingDoctrineOrmTypeGuesser.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Form/Guesser/MissingDoctrineOrmTypeGuesser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Form/Type/EasyAdminFormType.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Form/Type/EasyAdminFormType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Form/Util/LegacyFormHelper.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Form/Util/LegacyFormHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/easyadmin-all.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/easyadmin-all.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/easyadmin.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/easyadmin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.de.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.de.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.en.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.en.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/field_association.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/field_association.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/list.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/form/bootstrap_3_horizontal_layout.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/form/bootstrap_3_horizontal_layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/form/bootstrap_3_layout.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/form/bootstrap_3_layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/AdvancedFormLayoutTest.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/AdvancedFormLayoutTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/CustomMenuTest.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/CustomMenuTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/CustomizedBackendTest.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/CustomizedBackendTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/DefaultBackendTest.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/DefaultBackendTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_advanced_form_layout.yml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_advanced_form_layout.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_custom_menu.yml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_custom_menu.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_customized_backend.yml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_customized_backend.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/AppTestBundle/DataFixtures/ORM/LoadUsers.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/AppTestBundle/DataFixtures/ORM/LoadUsers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/AppTestBundle/Entity/FunctionalTests/User.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/AppTestBundle/Entity/FunctionalTests/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/.travis.yml" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Exception/JWTDecodeFailureException.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Exception/JWTDecodeFailureException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Exception/JWTEncodeFailureException.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Exception/JWTEncodeFailureException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/README.md" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Resources/config/services.xml" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Resources/config/services.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Resources/doc/5-encoder-service.md" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Resources/doc/5-encoder-service.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Resources/doc/index.md" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Resources/doc/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Security/User/JWTUser.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Security/User/JWTUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Security/User/JWTUserProvider.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Security/User/JWTUserProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Services/KeyLoader/AbstractKeyLoader.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Services/KeyLoader/AbstractKeyLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Signature/LoadedJWS.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Signature/LoadedJWS.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Tests/Functional/DependencyInjection/AutowiringTest.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Tests/Functional/DependencyInjection/AutowiringTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Tests/Functional/Utils/CallableEventSubscriber.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Tests/Functional/Utils/CallableEventSubscriber.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Tests/Functional/app/AppKernel.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Tests/Functional/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Tests/Services/JWSProvider/AbstractJWSProviderTest.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Tests/Services/JWSProvider/AbstractJWSProviderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Tests/Stubs/Autowired.php" afterPath="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle/Tests/Stubs/Autowired.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psr/simple-cache/src/CacheInterface.php" afterPath="$PROJECT_DIR$/vendor/psr/simple-cache/src/CacheInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/DoctrineCrudGenerator.php" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/DoctrineCrudGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Generator/DoctrineCrudGeneratorTest.php" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Generator/DoctrineCrudGeneratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/DefaultCrawler.php" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/DefaultCrawler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/CoverageListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/CoverageListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/DeprecationErrorHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/DeprecationErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/TestRunner.php" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/TestRunner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/SymfonyTestsListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/SymfonyTestsListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/CoverageListenerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/CoverageListenerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/default.phpt" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/default.phpt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/acme/lib/deprecation_riddled.php" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/acme/lib/deprecation_riddled.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak.phpt" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak.phpt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_eval_d_deprecation.phpt" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_eval_d_deprecation.phpt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_phar_deprecation.phpt" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_phar_deprecation.phpt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_vendor.phpt" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_vendor.phpt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/TextUI/Command.php" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/TextUI/Command.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/TextUI/TestRunner.php" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/TextUI/TestRunner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/bin/simple-phpunit" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/bin/simple-phpunit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/.travis.yml" afterPath="$PROJECT_DIR$/vendor/twig/twig/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/CHANGELOG" afterPath="$PROJECT_DIR$/vendor/twig/twig/CHANGELOG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/LICENSE" afterPath="$PROJECT_DIR$/vendor/twig/twig/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/doc/advanced.rst" afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/advanced.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/length.rst" afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/length.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/replace.rst" afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/replace.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/block.rst" afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/block.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/php_twig.h" afterPath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/php_twig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/twig.c" afterPath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/twig.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Compiler.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Compiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ContainerRuntimeLoader.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ContainerRuntimeLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExpressionParser.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExpressionParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/FileExtensionEscapingStrategy.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/FileExtensionEscapingStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Lexer.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Lexer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Filesystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Optimizer.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Optimizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/NodeVisitor/Profiler.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/NodeVisitor/Profiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/For.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/For.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserBroker.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserBroker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenStream.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Extension/SandboxTest.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Extension/SandboxTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/child_contents_outside_blocks.test" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/child_contents_outside_blocks.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/length.test" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/length.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/IntegrationTest.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/IntegrationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/TemplateTest.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/TemplateTest.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,18 +254,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/ArticleController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -61,30 +283,30 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="s doctrine:schema:update --force" />
-      <command text="s assets:install --symlink" />
-      <command text="s avanzu:admin:fetch-vendor" />
+      <command text="s generate:controller" />
+      <command text="s doctrine:generate:entities " />
+      <command text="s doctrine:schema:update --dump-sql " />
+      <command text="s doctrine:schema:update --dump-sql --force " />
+      <command text="s assets:install " />
       <command text="s cache:clear" />
-      <command text="s assets:install --symlink " />
-      <command text="s generate:controller" />
+      <command text="s debug:container " />
       <command text="s cache:clear" />
-      <command text="s generate:controller" />
-      <command text="s config:dump-reference fos_rest" />
-      <command text="s generate:controller" />
-      <command text="s debug:container jwt" />
-      <command text="24" />
-      <command text="s lexik_jwt_authentication.jwt_encoder" />
-      <command text="s debug:container jwt" />
-      <command text="s generate:controller" />
-      <command text="s debug:router " />
-      <command text="s debug:container --types" />
-      <command text="s debug:container --crudService" />
-      <command text="s debug:container  crudService" />
-      <command text="s debug:container --types" />
-      <command text="s generate:controller" />
+      <command text="s cache:clear --env=dev" />
+      <command text="nelmio/api-doc-bundle:dev-master" />
+      <command text="&quot;nelmio/api-doc-bundle&quot;:&quot;dev-master&quot;" />
+      <command text="s debug:container " />
+      <command text="s cache:clear" />
+      <command text="s debug:container " />
+      <command text="s cache:clear" />
+      <command text="s swiftmailer:spool:send --env=prod" />
+      <command text="s swiftmailer:spool:send " />
+      <command text="s swiftmailer:spool:send --env=dev" />
+      <command text="s cache:clear" />
       <command text="s doctrine:generate:entity " />
-      <command text="s doctrine:generate:form TutoBundle:image" />
-      <command text="s cache:warmup" />
+      <command text="s generate:controller" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s cache:clear" />
+      <command text="ca*" />
       <command text="s cache:clear" />
     </commandsHistory>
   </component>
@@ -97,57 +319,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/UserRepository.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Entity/etudiant.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EtudiantRestController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/ArticleController.php" />
+        <option value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle/Pagination/fyPagination.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/list.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/EtudiantRestController.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/NoteRestController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/ApiDocBundle/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/TokenTestController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/easyadmin/artController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EasyAdmin/artController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EasyAdmin/etController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EasyAdmin/matController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/EtudiantFOSRESTController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Entity/note.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/CommentController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Service/crudService.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/PublicationController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EtudiantController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/MatiereController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EasyAdmin/noController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/NoteRestController.php" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Serializer/Listner/EtudiantListner.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/EtudiantRestController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Repository/noteRepository.php" />
         <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/BaseController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Form/imageType.php" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Service/uploadFile.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/EtudiantController.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/PublicationController.php" />
         <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/NoteController.php" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/ImageController.php" />
         <option value="$PROJECT_DIR$/src/TutoBundle/Resources/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/FileController.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Listener/ObjeListener.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Event/ObjetEvent.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Subscriber/ObjetSubscriber.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/MatiereController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Repository/noteRepository.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/DTO/etudiantDTO.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/DTO/commentDTO.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/DTO/articleDTO.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/DTO/imageDTO.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/DTO/matiereDTO.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/DTO/noteDTO.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/DTO/publicationDTO.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/ServiceApplicatif/ArticleSA.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/ArticleController.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Entity/article.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Entity/etudiant.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Entity/matiere.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Entity/note.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Listener/ObjetListener.php" />
+        <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Listener/MailListener.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/mail.html.twig" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Service/crudService.php" />
         <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/uploadFile.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Article/create_article.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Article/list.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Article/update_article.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Bulletin/createNote.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Comment/create_comment.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/create.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/details.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/list.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/update.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/create_matiere.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/delete_matiere.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/list_matiere.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/update_matiere.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Note/affiche_note.html.twig" />
-        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Publication/index_publication.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Parole/show.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Parole/show_parole.html.twig" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Service/uploadFile.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Service/uploadImage.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Parole/list_parole.html.twig" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/FileController.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Resources/views/Parole/add_parole.html.twig" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Service/uploadParole.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/CommentController.php" />
+        <option value="$PROJECT_DIR$/src/TutoBundle/Infrastructure/ParoleController.php" />
       </list>
     </option>
   </component>
@@ -219,6 +441,14 @@
       <path value="$PROJECT_DIR$/vendor/namshi/jose" />
       <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
       <path value="$PROJECT_DIR$/vendor/whiteoctober/breadcrumbs-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/jms/cg" />
+      <path value="$PROJECT_DIR$/vendor/jms/aop-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/di-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/api-doc-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -256,7 +486,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,7 +555,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,18 +568,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\sf3\src\TutoBundle\Resources\views\Etudiant" />
       <recent name="C:\wamp64\www\sf3\src\TutoBundle\Resources\views\Default" />
-      <recent name="C:\wamp64\www\sf3\src\TutoBundle\Service" />
-      <recent name="C:\wamp64\www\sf3\src\TutoBundle\Infrastructure\Api" />
-      <recent name="C:\wamp64\www\sf3\app\Resources\views\easy_admin" />
-      <recent name="C:\wamp64\www\sf3\src\TutoBundle\Infrastructure" />
+      <recent name="C:\wamp64\www\sf3\src\TutoBundle\DTO" />
+      <recent name="C:\wamp64\www\sf3\src\TutoBundle\Subscriber" />
+      <recent name="C:\wamp64\www\sf3\app\Resources\ApiDocBundle\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\sf3\src\TutoBundle\Resources\views\Parole" />
       <recent name="C:\wamp64\www\sf3\src\TutoBundle\Infrastructure" />
       <recent name="C:\wamp64\www\sf3\src\TutoBundle\Infrastructure\easyadmin" />
       <recent name="C:\wamp64\www\sf3\src\TutoBundle\Infrastructure\Api" />
       <recent name="C:\wamp64\www\sf3\app\Resources\EasyAdminBundle" />
-      <recent name="C:\wamp\www\sf3\src\TutoBundle\Infrastructure" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -468,12 +698,17 @@
       <workItem from="1519971984528" duration="15358000" />
       <workItem from="1520230653793" duration="23078000" />
       <workItem from="1520318599781" duration="16928000" />
-      <workItem from="1520404103405" duration="12544000" />
+      <workItem from="1520404103405" duration="15543000" />
+      <workItem from="1520495296854" duration="6935000" />
+      <workItem from="1520576195466" duration="23240000" />
+      <workItem from="1520835432581" duration="24697000" />
+      <workItem from="1520925923563" duration="16448000" />
+      <workItem from="1521008416615" duration="24840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325317000" />
+    <option name="totallyTimeSpent" value="424476000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -486,13 +721,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21709532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29447854" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8588957" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.94325155" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32668713" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -527,217 +761,225 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/EtudiantRestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/MatiereController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding>
-            <element signature="e#45#102#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Entity/image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Form/imageType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Entity/article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Service/crudService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/NoteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="104" lean-forward="false" selection-start-line="38" selection-start-column="104" selection-end-line="38" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/PublicationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/CommentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/EtudiantController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Repository/imageRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Form/etudiantType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TutoBundle/Form/articleType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/config/services.yml">
+    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/DTO/etudiantDTO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="84" column="5" lean-forward="false" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/DTO/commentDTO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/DTO/imageDTO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/DTO/matiereDTO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/DTO/noteDTO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/DTO/publicationDTO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/ServiceApplicatif/ArticleSA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Entity/comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="146" column="66" lean-forward="true" selection-start-line="146" selection-start-column="66" selection-end-line="146" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Entity/etudiant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Entity/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Entity/matiere.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Entity/note.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#69#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Entity/publication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="143" column="5" lean-forward="true" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Entity/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Event/ObjetEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Listener/ObjetListener.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding />
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#130#162#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/adminLTE.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/uploadFile.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/EtudiantController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="65" lean-forward="true" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/FileController.php">
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="20" column="70" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
-          <folding>
-            <element signature="e#45#102#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="499">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="125">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Service/uploadFile.php">
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/mail.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Serializer/Listner/EtudiantListner.php">
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Service/crudService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="431">
+          <caret line="37" column="81" lean-forward="false" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="81" />
           <folding />
         </state>
       </provider>
@@ -745,28 +987,12 @@
     <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Note/affiche_note.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Publication/index_publication.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/User/create.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/User/create_user.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -774,171 +1000,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/User/delete.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/User/edit_user.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/User/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/User/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/User/update.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/delete_matiere.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/create_matiere.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/update_matiere.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Matiere/list_matiere.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/create.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/details.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+        <state relative-caret-position="-113">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/update.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+        <state relative-caret-position="272">
+          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Parole/show_parole.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="44" />
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Default/uploadFile.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+        <state relative-caret-position="799">
+          <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Comment/create_comment.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Service/uploadFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+        <state relative-caret-position="187">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Bulletin/createNote.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Service/uploadImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#85#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Form/noteType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Article/create_article.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Etudiant/create.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+        <state relative-caret-position="527">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="31" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Article/list.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Parole/list_parole.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+        <state relative-caret-position="238">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Article/update_article.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/FileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="e#45#102#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Resources/views/Parole/add_parole.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Service/uploadParole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/DTO/articleDTO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Entity/parole.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/testApiExtController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/CommentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/Api/EtudiantFOSRESTController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Listener/MailListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/PublicationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TutoBundle/Infrastructure/ParoleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+          <folding>
+            <element signature="e#45#102#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

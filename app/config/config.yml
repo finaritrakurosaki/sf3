@@ -8,7 +8,6 @@ imports:
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: en
-    image_directory: '%kernel.project_dir%/web/uploads/Images'
 
 framework:
     #esi:             ~
@@ -65,9 +64,11 @@ doctrine:
 swiftmailer:
     transport: "%mailer_transport%"
     host:      "%mailer_host%"
+    port:       "%mailer_port%"
     username:  "%mailer_user%"
+    encryption: '%mailer_encryption%'
     password:  "%mailer_password%"
-    spool:     { type: memory }
+    spool: { type: memory }
 
 #fos userBundle
 fos_user:
@@ -75,8 +76,16 @@ fos_user:
          firewall_name: main
          user_class:    TutoBundle\Entity\Users
          from_email:
-                   address: "finaritra.etech@gmail.com"
+                   address: "%mailer_user%"
                    sender_name: "tutofosuserBUndle"
+         registration:
+                 confirmation:
+                     enabled:    true
+                     template:   FOSUserBundle:Registration:email.txt.twig
+         service:
+               mailer: fos_user.mailer.twig_swift
+
+
 
 #lexik_jwt
 lexik_jwt_authentication:
@@ -128,6 +137,28 @@ easy_admin:
                 fields:
                       - 'description'
                       - { property: 'imageUrl', type: 'image' }
+
+
+knp_paginator:
+    page_range: 5                       # nombre page afficher eo amle pagination
+    default_options:
+        page_name: page                 # page query parameter name
+        sort_field_name: sort           # sort field query parameter name
+        sort_direction_name: direction  # sort direction query parameter name
+        distinct: true                  # resultat distinct
+        filter_field_name: filterField  # filter field query parameter name
+        filter_value_name: filterValue  # filter value query paameter name
+    template:
+        pagination: '@KnpPaginator/Pagination/twitter_bootstrap_v4_pagination.html.twig'     # le templatenle pagination
+        sortable: '@KnpPaginator/Pagination/sortable_link.html.twig' # sort link template
+        filtration: '@KnpPaginator/Pagination/filtration.html.twig'  # filters template
+
+jms_di_extra:
+     locations:
+          all_bundles: false
+          bundles: [TutoBundle]
+          directories: ["%kernel.root_dir%/../src"]
+nelmio_api_doc: ~
 
 #fos_rest:
 #    format_listener:

@@ -6,20 +6,31 @@
     <h1>List Student</h1>
     {% block content %}
         <table class="table">
-            {% for etudiant in etudiants %}
+          <thead class="thead-dark">
+            <tr>
+                <th>{{ knp_pagination_sortable(pagination, 'Nom', 'a.nom') }}</th>
+                <th>{{ knp_pagination_sortable(pagination, 'Prenom', 'a.prenom') }}</th>
+                {% if is_granted("ROLE_ADMIN") %}
+                 <th>Update</th>
+                {%endif%}
+                <th>Note</th>
+                <th>Details</th>
+            </tr>
+          </thead>
+            {# table body #}
+            {% for etudiant in pagination %}
                 <tr>
-                    <td class="table-info">{{ etudiant.nom }}</td>
-                    <div class="btn-group">
-                        {% if is_granted("ROLE_ADMIN") %}
-                            <td>|<a class="btn btn-light" href="{{path('updateEtudiant',{'id':etudiant.id})}}">Update</a></td>
-                        {%endif%}
-                        <td>| <a class="btn btn-light" href="{{path('noteEtudiant',{'id':etudiant.id})}}">Note</a></td>
-                        <td>| <a class="btn btn-light" href="{{path('detailsEtudiant',{'id':etudiant.id})}}">Details</a></td>
-                    </div>
+                    <td>{{ etudiant.nom }}</td>
+                    <td>{{ etudiant.prenom }}</td>
+                    {% if is_granted("ROLE_ADMIN") %}
+                        <td><a class="btn btn-light" href="{{path('updateEtudiant',{'id':etudiant.id})}}">Update</a></td>
+                    {%endif%}
+                    <td><a class="btn btn-light" href="{{path('noteEtudiant',{'id':etudiant.id})}}">Note</a></td>
+                    <td><a class="btn btn-light" href="{{path('detailsEtudiant',{'id':etudiant.id})}}">Details</a></td>
                 </tr>
             {% endfor %}
         </table>
-        {{ app.session.set('url', 'listEtudiant') }}
+            {{ knp_pagination_render(pagination) }}
     {% endblock %}
 {% endblock %}
 

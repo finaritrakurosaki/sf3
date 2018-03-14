@@ -9,9 +9,14 @@ use Symfony\Component\HttpFoundation\Response;
 use TutoBundle\Entity\etudiant;
 use TutoBundle\Entity\note;
 use TutoBundle\Form\noteType;
+use JMS\DiExtraBundle\Annotation\Inject;
 
 class NoteController extends BaseController
 {
+    /**
+     * @Inject("tuto.crud", required = true)
+     */
+    private $crud;
     /**
      * @Route("/admin/createNote",name="createNote")
      */
@@ -21,7 +26,7 @@ class NoteController extends BaseController
         $form = $this->createForm(noteType::class,$note);
         $form->handleRequest($request);
         if($form->isValid() && $form->isSubmitted()) {
-            $this->loadService()->add($note);
+            $this->crud->add($note);
             $this->addFlash(
                 'notice',
                 'note Added!'

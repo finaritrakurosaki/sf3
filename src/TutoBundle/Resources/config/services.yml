@@ -1,26 +1,14 @@
 services:
-    tuto.crud:
-        class: TutoBundle\Service\crudService
-        arguments: [ "@doctrine.orm.entity_manager",%secret% ]
+    #tuto.uploadFile:
+     #       class: TutoBundle\Service\uploadFile
+      #      arguments:
+       #          $targetDir: %image_directory%
 
-    tuto.uploadFile:
-            class: TutoBundle\Service\uploadFile
-            arguments:
-                 $targetDir: %image_directory%
-
-    TutoBundle\Infrastructure\MatiereController:
-                          public: true
-                          tags:
-                              - name: controller.service_arguments
-                                action: updateMatiere
-                                argument: crudService
-                                id: tuto.crud
-
-    TutoBundle\Infrastructure\FileController:
-                              public: true
-                              tags:
-                                  - name: controller.service_arguments
-                                    action: uploadFile
-                                    argument: uploadFile
-                                    id: tuto.uploadFile
+    #TutoBundle\Infrastructure\FileController:
+     #                         public: true
+      #                        tags:
+       #                           - name: controller.service_arguments
+        #                            action: uploadFile
+         #                           argument: uploadFile
+          #                          id: tuto.uploadFile
 

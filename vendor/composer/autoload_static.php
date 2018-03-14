@@ -32,6 +32,7 @@ class ComposerStaticInitda05e42bf947d54cd267cefd928db0fd
             'Symfony\\Polyfill\\Php56\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Apcu\\' => 22,
+            'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\' => 18,
             'Symfony\\Bundle\\SwiftmailerBundle\\' => 33,
             'Symfony\\Bundle\\MonologBundle\\' => 29,
@@ -62,15 +63,22 @@ class ComposerStaticInitda05e42bf947d54cd267cefd928db0fd
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Michelf\\' => 8,
         ),
         'L' => 
         array (
             'Lexik\\Bundle\\JWTAuthenticationBundle\\' => 37,
         ),
+        'K' => 
+        array (
+            'Knp\\Bundle\\PaginatorBundle\\' => 27,
+        ),
         'J' => 
         array (
             'JavierEguiluz\\Bundle\\EasyAdminBundle\\' => 37,
             'JMS\\SerializerBundle\\' => 21,
+            'JMS\\DiExtraBundle\\' => 18,
+            'JMS\\AopBundle\\' => 14,
         ),
         'I' => 
         array (
@@ -138,6 +146,10 @@ class ComposerStaticInitda05e42bf947d54cd267cefd928db0fd
         'Symfony\\Polyfill\\Apcu\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-apcu',
+        ),
+        'Symfony\\Component\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
         ),
         'Symfony\\Component\\' => 
         array (
@@ -223,9 +235,17 @@ class ComposerStaticInitda05e42bf947d54cd267cefd928db0fd
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'Michelf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/michelf/php-markdown/Michelf',
+        ),
         'Lexik\\Bundle\\JWTAuthenticationBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/lexik/jwt-authentication-bundle',
+        ),
+        'Knp\\Bundle\\PaginatorBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/knplabs/knp-paginator-bundle',
         ),
         'JavierEguiluz\\Bundle\\EasyAdminBundle\\' => 
         array (
@@ -234,6 +254,14 @@ class ComposerStaticInitda05e42bf947d54cd267cefd928db0fd
         'JMS\\SerializerBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/jms/serializer-bundle',
+        ),
+        'JMS\\DiExtraBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jms/di-extra-bundle',
+        ),
+        'JMS\\AopBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jms/aop-bundle',
         ),
         'Incenteev\\ParameterHandler\\' => 
         array (
@@ -338,11 +366,25 @@ class ComposerStaticInitda05e42bf947d54cd267cefd928db0fd
                 0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/src',
             ),
         ),
+        'N' => 
+        array (
+            'Nelmio\\ApiDocBundle' => 
+            array (
+                0 => __DIR__ . '/..' . '/nelmio/api-doc-bundle',
+            ),
+        ),
         'M' => 
         array (
             'Metadata\\' => 
             array (
                 0 => __DIR__ . '/..' . '/jms/metadata/src',
+            ),
+        ),
+        'K' => 
+        array (
+            'Knp\\Component' => 
+            array (
+                0 => __DIR__ . '/..' . '/knplabs/knp-components/src',
             ),
         ),
         'J' => 
@@ -389,6 +431,13 @@ class ComposerStaticInitda05e42bf947d54cd267cefd928db0fd
             'Doctrine\\Common\\Annotations\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/annotations/lib',
+            ),
+        ),
+        'C' => 
+        array (
+            'CG\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/jms/cg/src',
             ),
         ),
         'A' => 

@@ -8,10 +8,14 @@ use Symfony\Component\HttpFoundation\Request;
 use TutoBundle\Entity\comment;
 use TutoBundle\Entity\publication;
 use TutoBundle\Form\commentType;
-use TutoBundle\Service\crudService;
+use JMS\DiExtraBundle\Annotation\Inject;
 
 class CommentController extends BaseController
 {
+    /**
+     * @Inject("tuto.crud", required = true)
+     */
+    private $crud;
     /**
      * @Route("/user/comments{id}", name="createComment")
      */
@@ -23,7 +27,7 @@ class CommentController extends BaseController
         if( $form->isSubmitted() && $form->isValid()) {
             $comment->setPublication($publication)
                     ->setUser($this->getUser());
-            $this->loadService()->add($comment);
+            $this->crud->add($comment);
             return $this->redirectToRoute('createComment',array('id' => $publication->getId()),301);
         }
         return $this->render('TutoBundle:Comment:create_comment.html.twig',

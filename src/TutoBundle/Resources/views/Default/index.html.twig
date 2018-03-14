@@ -17,7 +17,7 @@
                     {% if  article.datetimeEdition  %}
                         <h3>Date de modification :</h3>{{ article.datetimeEdition|date('Y-m-d H:i:s') }}<br>
                     {% endif %}
-                    <img src="{{ article.imageUrl }}" ><br>
+                    <img src="{{ article.imageUrl }}" class="img-thumbnail img-fluid " width="50%" height="50%"/><br>
                 {% endfor %}
             {% endif %}
 

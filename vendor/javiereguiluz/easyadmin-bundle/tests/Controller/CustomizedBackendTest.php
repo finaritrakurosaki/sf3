@@ -84,7 +84,7 @@ class CustomizedBackendTest extends AbstractTestCase
         $this->assertSame('New Category', trim($crawler->filter('.global-actions a.action-new')->text()));
         $this->assertSame('custom_class_new action-new', $crawler->filter('.global-actions a.action-new')->attr('class'));
         $this->assertSame('fa fa-plus-circle', $crawler->filter('.global-actions a.action-new i')->attr('class'));
-        $this->assertStringStartsWith('/admin/?action=new&entity=Category&sortField=id&sortDirection=DESC&page=1', $crawler->filter('.global-actions a.action-new')->attr('href'));
+        $this->assertStringStartsWith('/admin/?action=new&entity=Category&view=list&sortField=id&sortDirection=DESC&page=1', $crawler->filter('.global-actions a.action-new')->attr('href'));
     }
 
     public function testListViewItemActions()
@@ -170,8 +170,8 @@ class CustomizedBackendTest extends AbstractTestCase
         $this->assertSame('disabled', $crawler->filter('.list-pagination li:contains("First")')->attr('class'));
         $this->assertSame('disabled', $crawler->filter('.list-pagination li:contains("Previous")')->attr('class'));
 
-        $this->assertStringStartsWith('/admin/?action=list&entity=Category&sortField=id&sortDirection=DESC&page=2', $crawler->filter('.list-pagination li a:contains("Next")')->attr('href'));
-        $this->assertStringStartsWith('/admin/?action=list&entity=Category&sortField=id&sortDirection=DESC&page=14', $crawler->filter('.list-pagination li a:contains("Last")')->attr('href'));
+        $this->assertStringStartsWith('/admin/?action=list&entity=Category&view=list&sortField=id&sortDirection=DESC&page=2', $crawler->filter('.list-pagination li a:contains("Next")')->attr('href'));
+        $this->assertStringStartsWith('/admin/?action=list&entity=Category&view=list&sortField=id&sortDirection=DESC&page=14', $crawler->filter('.list-pagination li a:contains("Last")')->attr('href'));
     }
 
     public function testListViewCustomFormats()
@@ -594,8 +594,8 @@ class CustomizedBackendTest extends AbstractTestCase
         $this->assertSame('disabled', $crawler->filter('.list-pagination li:contains("First")')->attr('class'));
         $this->assertSame('disabled', $crawler->filter('.list-pagination li:contains("Previous")')->attr('class'));
 
-        $this->assertStringStartsWith('/admin/?action=search&entity=Category&sortField=name&sortDirection=ASC&page=2', $crawler->filter('.list-pagination li a:contains("Next")')->attr('href'));
-        $this->assertStringStartsWith('/admin/?action=search&entity=Category&sortField=name&sortDirection=ASC&page=14', $crawler->filter('.list-pagination li a:contains("Last")')->attr('href'));
+        $this->assertStringStartsWith('/admin/?action=search&entity=Category&query=cat&sortField=name&sortDirection=ASC&page=2', $crawler->filter('.list-pagination li a:contains("Next")')->attr('href'));
+        $this->assertStringStartsWith('/admin/?action=search&entity=Category&query=cat&sortField=name&sortDirection=ASC&page=14', $crawler->filter('.list-pagination li a:contains("Last")')->attr('href'));
     }
 
     public function testSearchViewItemActions()
@@ -664,5 +664,18 @@ class CustomizedBackendTest extends AbstractTestCase
             'Getter method does not exist for this field or the property is not public',
             $firstVirtualField->attr('title')
         );
+    }
+
+    public function testListViewImmutableDates()
+    {
+        if (!class_exists('\DateTimeImmutable')) {
+            $this->markTestSkipped('DateTimeImmutable class does not exist in this PHP version.');
+        }
+
+        $crawler = $this->requestListView('User');
+
+        $this->assertSame('October 18, 2005 16:27', trim($crawler->filter('#main table tr')->eq(1)->filter('td.datetime_immutable')->text()));
+        $this->assertSame('2005-10-18', trim($crawler->filter('#main table tr')->eq(1)->filter('td.date_immutable')->text()));
+        $this->assertSame('16:27:36', trim($crawler->filter('#main table tr')->eq(1)->filter('td.time_immutable')->text()));
     }
 }

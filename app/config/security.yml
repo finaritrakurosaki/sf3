@@ -32,6 +32,11 @@ security:
            guard:
                authenticators:
                      - lexik_jwt_authentication.jwt_token_authenticator
+
+        api_doc:
+              pattern: ^/documentation
+              security: false
+
         main:
            pattern: ^/
            form_login:
@@ -39,7 +44,6 @@ security:
                 csrf_token_generator: security.csrf.token_manager
            logout:     true
            anonymous:  true
-
         # disables authentication for assets and the profiler, adapt it according to your needs
         dev:
            pattern: ^/(_(profiler|wdt)|css|images|js)/

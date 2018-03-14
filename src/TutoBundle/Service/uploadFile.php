@@ -3,10 +3,12 @@ namespace TutoBundle\Service;
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
+
+
 class uploadFile
 {
-   private $targetDir;
 
+  protected $targetDir;
    public function __construct($targetDir)
     {
         $this->targetDir = $targetDir;
@@ -15,9 +17,9 @@ class uploadFile
    public function upload(UploadedFile $file)
     {
 
-        $fileName = md5(uniqid()).'.'.$file->guessExtension();
+        /*$fileName = md5(uniqid()).'.'.$file->guessExtension();*/
         $file->move($this->getTargetDir(), $file->getClientOriginalName());
-        return $fileName;
+        return $file->getClientOriginalName();
     }
 
     public function getTargetDir()

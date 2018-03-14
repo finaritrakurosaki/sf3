@@ -8,11 +8,15 @@ use Symfony\Component\HttpFoundation\Request;
 use TutoBundle\Entity\article;
 use TutoBundle\Form\articleEditType;
 use TutoBundle\Form\articleType;
-
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AdminController as BaseAdminController;
+use JMS\DiExtraBundle\Annotation\Inject;
 
 class ArticleController extends BaseController
 {
+    /**
+     * @Inject("tuto.crud", required = true)
+    */
+    private $crud;
     /**
      * @Route("/admin/createArticle", name="createArticle")
      */
@@ -23,7 +27,7 @@ class ArticleController extends BaseController
         $form= $this->createForm(articleType::class,$article);
         $form->handleRequest($request);
         if ($form->isValid() && $form->isSubmitted()){
-            $this->loadService()->add($article);
+            $this->crud->add($article);
             $this->addFlash(
                 'notice',
                 'article Ajouté!'
@@ -44,7 +48,7 @@ class ArticleController extends BaseController
         $form = $this->createForm(articleEditType::class,$article);
         $form->handleRequest($request);
         if($form->isValid() && $form->isSubmitted()) {
-            $this->loadService()->update($article);
+            $this->crud->update($article);
             $this->addFlash(
                 'notice',
                 'Article Edited!'

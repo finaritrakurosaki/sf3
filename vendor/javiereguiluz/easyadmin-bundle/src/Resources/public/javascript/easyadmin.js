@@ -52,11 +52,11 @@ function deleteCookie(name)
 }
 
 function createAutoCompleteFields() {
-    var autocompleteFields = $('[data-EasyAdmin-autocomplete-url]');
+    var autocompleteFields = $('[data-easyadmin-autocomplete-url]');
 
     autocompleteFields.each(function () {
         var $this = $(this),
-            url = $this.data('EasyAdmin-autocomplete-url');
+            url = $this.data('easyadmin-autocomplete-url');
 
         $this.select2({
             theme: 'bootstrap',

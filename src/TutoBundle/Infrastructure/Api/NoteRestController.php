@@ -11,13 +11,31 @@ use JMS\Serializer\SerializationContext;
 use TutoBundle\Entity\etudiant;
 use TutoBundle\Entity\matiere;
 use TutoBundle\Entity\note;
-
+use Nelmio\ApiDocBundle\Annotation as Doc;
 
 class NoteRestController extends Controller
 {
 
     /**
-     * @Route("/api/notes/{id}", name="note_show")
+     *@Doc\ApiDoc(
+     *     section="notes",
+     *     resource=true,
+     *     description="get one note of student.",
+     *     requirements={
+     *        {
+     *             "name"="id",
+     *             "dataType"="integer",
+     *             "requirements"="\d+",
+     *             "description"="identifier note."
+     *         }
+     *     },
+     *     statusCodes={
+     *         200="Returned when success",
+     *         401="Token not found"
+     *     },
+     *     output= { "class"=note::class,"groups"={"note"} }
+     * )
+     * @Route("/api/notes/{id}", name="note_show",requirements={"id":"\d+"})
      *  @Method("GET")
      */
     public function showAction(note $note)
@@ -28,6 +46,16 @@ class NoteRestController extends Controller
         return $response;
     }
     /**
+     *@Doc\ApiDoc(
+     *     section="notes",
+     *     resource=true,
+     *     description="get all notes.",
+     *     statusCodes={
+     *         200="Returned when success",
+     *         401="Token not found"
+     *     },
+     *     output= {"class"=note::class}
+     * )
      * @Route("/api/notes", name="note_list")
      * @Method("GET")
      */
@@ -40,6 +68,15 @@ class NoteRestController extends Controller
         return $response;
     }
     /**
+     *@Doc\ApiDoc(
+     *     section="notes",
+     *     resource=true,
+     *     description="create note for student.",
+     *     statusCodes={
+     *         201="Returned when created",
+     *         401="Token not found"
+     *     }
+     * )
      * @Route("/api/notes", name="note_create")
      * @Method("POST")
      */
@@ -58,6 +95,23 @@ class NoteRestController extends Controller
         return new Response('', Response::HTTP_CREATED);
     }
     /**
+     *@Doc\ApiDoc(
+     *     section="notes",
+     *     resource=true,
+     *     description="delete one note .",
+     *     requirements={
+     *        {
+     *             "name"="id",
+     *             "dataType"="integer",
+     *             "requirements"="\d+",
+     *             "description"="identifier note."
+     *         }
+     *     },
+     *     statusCodes={
+     *         200="Returned when deleted",
+     *         401="Token not found"
+     *     }
+     * )
      * @Route("/api/notes/{id}", name="note_delete")
      * @Method("DELETE")
      */
@@ -69,6 +123,15 @@ class NoteRestController extends Controller
         return new Response('', Response::HTTP_ACCEPTED);
     }
     /**
+     *@Doc\ApiDoc(
+     *     section="notes",
+     *     resource=true,
+     *     description="update note of student.",
+     *     statusCodes={
+     *         200="Returned when success",
+     *         401="Token not found"
+     *     }
+     * )
      * @Route("/api/notes", name="note_update")
      * @Method("PUT")
      */

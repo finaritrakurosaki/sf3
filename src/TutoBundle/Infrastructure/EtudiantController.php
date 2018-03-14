@@ -9,9 +9,14 @@ use Symfony\Component\HttpFoundation\Request;
 use TutoBundle\Entity\etudiant;
 use TutoBundle\Form\etudiantEditType;
 use TutoBundle\Form\etudiantType;
+use JMS\DiExtraBundle\Annotation\Inject;
 
 class EtudiantController extends BaseController
 {
+    /**
+     * @Inject("tuto.crud", required = true)
+     */
+    private $crud;
     /**
      * @Route("/admin/createEtudiant",name="createEtudiant")
      */
@@ -21,7 +26,7 @@ class EtudiantController extends BaseController
         $form = $this->createForm(etudiantType::class,$etudiant);
         $form->handleRequest($request);
         if($form->isValid() && $form->isSubmitted()) {
-            $this->loadService()->add($etudiant);
+            $this->crud->add($etudiant);
             $this->addFlash(
                 'notice',
                 'Student Added!'
@@ -34,11 +39,15 @@ class EtudiantController extends BaseController
     /**
      * @Route("/user/listEtudiant",name="listEtudiant")
      */
-    public function listEtudiant()
+    public function listEtudiant(Request $request)
     {
-        $etudiants = $this->getDoctrine()->getRepository(etudiant::class)->findAll();
+        $query = $this->getDoctrine()->getRepository(etudiant::class)->FindAllPaginator();
+        $paginator  = $this->get('knp_paginator');
+        $pagination = $paginator->paginate(
+            $query,
+            $request->query->getInt('page', 1),3 );
         return $this->render('TutoBundle:Etudiant:list.html.twig', array(
-            'etudiants' => $etudiants
+            'pagination' => $pagination
         ));
     }
 
@@ -50,7 +59,7 @@ class EtudiantController extends BaseController
         $form = $this->createForm(etudiantEditType::class,$etudiant);
         $form->handleRequest($request);
         if($form->isValid() && $form->isSubmitted()) {
-            $this->loadService()->update();
+            $this->crud->update();
             $this->addFlash(
                 'notice',
                 'Student Edited!'
@@ -67,7 +76,7 @@ class EtudiantController extends BaseController
     {
 
         try {
-            $this->remove($etudiant);
+            $this->crud->delete($etudiant);
         }
         catch(Exception $e){
             echo $e->getMessage();

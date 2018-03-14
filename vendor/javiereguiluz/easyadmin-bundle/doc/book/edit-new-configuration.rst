@@ -517,7 +517,7 @@ autocomplete form fields.
 
 If the number of autocomplete suggestions is large, they are paginated to
 display a maximum of ``10`` results. Define the ``show.max_results`` option to
-change this value:
+change this value (globally or per entity):
 
 .. code-block:: yaml
 
@@ -525,6 +525,10 @@ change this value:
     easy_admin:
         show:
             max_results: 20
+        entities:
+            Category:
+                show:
+                    max_results: 5
         # ...
 
 Advanced Form Design
@@ -746,6 +750,37 @@ very advanced layouts.
 
     This solves most of the issues, but sometimes you might be forced to also
     reorder the form group positions.
+
+Form Tabs
+.........
+
+This element groups one or more fields and displays them in a separate tab. You
+can combine it with the other elements (tabs can contain groups, but no the other
+way around) to create clean interfaces when forms contains lots of fields.
+
+.. code-block:: yaml
+
+    easy_admin:
+        entities:
+            User:
+                class: AppBundle\Entity\User
+                form:
+                    fields:
+                        - { type: 'tab' , label: 'Account Information', icon: 'user' }
+                        - username
+                        - firstName
+                        - lastName
+                        - { type: 'tab', label: 'Contact Information', icon: 'envelope-o' }
+                        - { type: 'group', label: 'Address', css_class: 'col-sm-6' }
+                        - street
+                        - zip
+                        - city
+                        - { type: 'group', label: 'Media', css_class: 'col-sm-6' }
+                        - email
+                        - phone
+
+.. image:: ../images/easyadmin-form-tabs.png
+   :alt: A form using tabs to separate its fields
 
 Design elements can be combined to display dividers and sections inside groups
 and create advanced layouts:

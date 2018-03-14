@@ -6,8 +6,12 @@ parameters:
     database_user: root
     database_password: null
     mailer_transport: smtp
-    mailer_host: 127.0.0.1
-    mailer_user: null
-    mailer_password: null
+    mailer_host: webmail.etechconsulting-mg.com
+    mailer_port: 2587
+    mailer_user: noreply@etechconsulting-mg.com
+    mailer_encryption: tls
+    mailer_password: sf0KKv8UNGE
     secret: ThisTokenIsNotSoSecretChangeIt
     jwt_key_pass_phrase: melchior
+    image_directory: '%kernel.project_dir%/web/uploads/Images'
+    parole_directory: '%kernel.project_dir%/web/uploads/Paroles/'

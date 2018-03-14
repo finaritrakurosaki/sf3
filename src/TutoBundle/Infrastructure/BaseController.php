@@ -14,7 +14,6 @@ use Symfony\Component\HttpFoundation\Request;
 use TutoBundle\Entity\article;
 use TutoBundle\Entity\IEntity;
 
-
 class BaseController extends Controller
 {
     /**
@@ -36,9 +35,5 @@ class BaseController extends Controller
         return $this->render('TutoBundle:Default:index.html.twig',array('form'=>$form->createView(),
                              'articles'=>$articles
                             ));
-    }
-    protected function loadService()
-    {
-        return $this->container->get('tuto.crud');
     }
 }

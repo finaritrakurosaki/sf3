@@ -10,9 +10,13 @@ use TutoBundle\Entity\matiere;
 use TutoBundle\Form\matiereEditType;
 use TutoBundle\Form\matiereType;
 use TutoBundle\Service\crudService;
-
+use JMS\DiExtraBundle\Annotation\Inject;
 class MatiereController extends BaseController
 {
+    /**
+     * @Inject("tuto.crud", required = true)
+     */
+    private $crud;
     /**
      * @Route("/admin/createMatiere",name="createMatiere")
      */
@@ -22,7 +26,7 @@ class MatiereController extends BaseController
         $form = $this->createForm(matiereType::class,$matiere);
         $form->handleRequest($request);
         if($form->isValid() && $form->isSubmitted()) {
-            $this->loadService()->add($matiere);
+            $this->crud->add($matiere);
             $this->addFlash(
                 'notice',
                 'Matiere ajoutée!'
@@ -37,13 +41,13 @@ class MatiereController extends BaseController
     /**
      * @Route("/admin/updateMatiere/{id}",name="updateMatiere")
      */
-    public function updateMatiere(Request $request, matiere $matiere,crudService $crudService)
+    public function updateMatiere(Request $request, matiere $matiere)
     {
 
         $form = $this->createForm(matiereEditType::class,$matiere);
         $form->handleRequest($request);
         if($form->isValid() && $form->isSubmitted()) {
-            $crudService->update();
+            $this->crud->update();
             $this->addFlash(
                 'notice',
                 'Matiere editée!'
@@ -71,7 +75,7 @@ class MatiereController extends BaseController
      */
     public function deleteMatiere(matiere $matiere)
     {
-        $this->loadService()->delete($matiere);
+        $this->crud->delete($matiere);
         return $this->redirectToRoute('listMatiere');
     }
 }

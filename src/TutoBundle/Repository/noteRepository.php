@@ -28,7 +28,7 @@ class noteRepository extends \Doctrine\ORM\EntityRepository
 
     public function FindDQL($id)
     {
-        $query = $this->_em->createQuery('select n.note,upper(e.nom),e.prenom,m.nomMatiere from TutoBundle:note n join n.etudiant e join n.matiere m WHERE e.id= :id');
+        $query = $this->_em->createQuery('select n.note,upper(e.nom) AS NOM,e.prenom,m.nomMatiere from TutoBundle:note n join n.etudiant e join n.matiere m WHERE e.id= :id');
         $query->setParameter('id',$id);
         $result = $query->getResult();
         return $result;
